@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>putanja do index stranice(index.html)</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>putanja do druge stranice(skola.html)</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>putannja do prodavnice tj oprema.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>putanja do kontakt.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>putanja do login.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>putanja do autor.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.1</priority>
+	</url>
+</urlset>

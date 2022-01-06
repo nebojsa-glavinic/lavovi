@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Najnovije vesti</title>
+		<link>link do index.html</link>
+		<description>Budite u toku sa dešavanjima u svetu sporta</description>
+		<item>
+			<title>Neverovatan preokret</title>
+			<link>link do index.html</link>
+			<description>FK Lavovi postigli pogodak, Partizan u šoku</description>
+		</item>
+		<item>
+			<title>Nova škola tenisa</title>
+			<link>link do index.html</link>
+			<description>Počeo upis u školu tenisa FK Lavovi</description>
+		</item>
+		<item>	
+			<title>Otvoren sportski kamp</title>
+			<link>link index.html</link>
+			<description>Škola sporta Lavovi otvorila novi kamp na Zlatiboru</description>
+		</item>
+	</channel>
+</rss>
