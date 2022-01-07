@@ -3,6 +3,7 @@
 	font-family: 'Signika', sans-serif;
 	src: url("../assets/fonts/signika/Signika-Regular.ttf") format("truetype");
 }*/
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -19,7 +20,7 @@ body{
 	font-family: 'Signika', sans-serif;
 	text-align:center;
 }
-/***************************************************  OPSTE ***********************/
+/**************************  General  ***********************/
 
 p{
 	font-size:18px;
@@ -103,9 +104,9 @@ a:hover{
 .h2right{
 	text-align:right;
 }
-/******************************************* flex ********************/
 
-/*********************************************** HEADER ********************/
+
+/******************************* HEADER ********************/
 #header{
 	background-color:rgba(10, 10, 10, 0.9);
 	position:relative;
@@ -123,7 +124,7 @@ a:hover{
 #logovanje{
 	width:360px;	
 }
-/**********************************************  NAV *******************************/
+/***********************  NAV ******************************/
 #menu{
 	background-color:rgba(10, 10, 10, 0.9);
 	position:sticky;
@@ -151,7 +152,7 @@ a:hover{
 #menu ul li a:hover{
 	border-bottom:2px solid #209ef7;
 }
-/******************************************** Welcome Note ****************************/
+/********************** Welcome Note **********************/
 #welNote{
 	padding:30px 0px;
 
@@ -167,7 +168,7 @@ a:hover{
 	color:#209ef7;
 	padding:10px 0px;
 }
-/******************************************* ANIMACIJJA LOPTE ***********************************/
+/************************* Animation **********************/
 
 #anime{
 	width:50%;
@@ -215,11 +216,11 @@ a:hover{
 	animation-delay: .9s;
 }
 
-/******************************************* Marquee ***********************************/
+/********************** Marquee *****************/
 marquee{
 	color:#f7f7f7;
 }
-/**************************************************   O NAMA *******************************/
+/**********************  About *******************/
 .h2naslov{
 	padding:15px;
 	color:#f7f7f7;
@@ -270,7 +271,7 @@ marquee{
 	width:70%;
 	margin-top:20px;
 }
-/******************************************************* SPORT / mainWaside ******************************/
+/**************** SPORT / mainWaside ******************/
 
 .live{
 	width:98%;
@@ -341,7 +342,7 @@ a.button:hover{
 	box-shadow:0px 0px 15px #f7f7f7;
 	background-color:#f7f7f7;
 }
-/********************************************************* ASIDE ***********************/
+/*********************** ASIDE ***********************/
 
 #mainWaside{
 	margin:0 auto;
@@ -398,7 +399,7 @@ a.button:hover{
 	color:#b3160b;
 }
 
-/********************************************************** TROPHY (u kontaktu i animaciji) *********************/
+/****************  TROPHY (@contact, @animation) ***************/
 #trophy{
 	margin-top:20px;
 	display:flex;
@@ -423,7 +424,7 @@ a.button:hover{
 .deg{
 	transform:rotate(-30deg);
 }
-/********************************************************  FOOTER  **********************/
+/***********************  FOOTER  **********************/
 footer{
 	background-color:rgba(10, 10, 10, 0.9);
 	margin-top:20px;
@@ -453,7 +454,7 @@ footer{
 .partner a{
 	font-size:16px;
 }
-/************************************************  KONTAKT.html  **************************************/
+/*******************  KONTAKT.html  ********************/
 
 #formAds{
 	float:left;
@@ -562,7 +563,7 @@ iframe{
 	font-size:40px;
 }
 
-/*****************************************  LOGIN / REGISTER  **********************/
+/*********************  LOGIN / REGISTER  **********************/
 
 #logReg{
 	margin:0px auto;
@@ -597,21 +598,20 @@ input{
 	border-radius:6px;
 }
 
-/***************************************** author ********************/
+/************************** author ********************/
 #profil{
-	width:65%;
-	margin:100px auto;
+	width:60%;
+	margin:0 auto;
 	display: flex;
 	flex-direction:row;
-	justify-content:space-between;
+	justify-content:space-around;
 	flex-wrap:wrap;
 	align-items:center;
-	min-width:480px;
+	
 	
 } 
 #proTxt{
-	max-width:480px;
-	margin:0 auto;
+	width:100%;
 	padding:10px;
 }
 #proTxt h2{
@@ -622,10 +622,12 @@ input{
 	padding:20px 0px;
 }
 #proSl{
-	padding:40px;
-	margin:0 auto;
+	width: 40%;
+	padding:5px;
 }
 #proSl img{
+	height:auto;
+	max-width: 100%;
 	box-shadow:0px 0px 5px #f7f7f7;
 	border-radius:10px;
 }
